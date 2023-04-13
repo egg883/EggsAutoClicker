@@ -1,5 +1,6 @@
 
-![image](https://user-images.githubusercontent.com/106391253/231742645-a9e99e78-f653-450f-aeb0-dbbf43acd5d3.png)
+![image](https://user-images.githubusercontent.com/106391253/231864779-ce76ff35-ce77-45f1-8626-545c96eb3948.png)
+
 
 # MAC Install (Manual)
 1. Install Python 3.9.9 or higher
