@@ -8,7 +8,7 @@ class Autoclicker:
     def __init__(self):
         self.delay = "1"
         self.clicking = False
-        self.title_text = "Autoclicker"
+        self.title_text = "Eggs Autoclicker"
         self.made_by_text = "Made by egg883"
         self.keybind = "f4"
 
@@ -19,7 +19,7 @@ class Autoclicker:
 
         self.root = tk.Tk()
         self.root.title(self.title_text)
-        self.root.geometry("300x200")
+        self.root.geometry("330x200")
         self.root.iconbitmap("C:/Users/cassi/Desktop/autoclicker/assets/egg.ico")
         self.root.config(bg=self.bg_color)
 
@@ -58,7 +58,7 @@ class Autoclicker:
     def start_clicking(self):
         self.delay = float(self.delay_entry.get())
         self.clicking = True
-        self.title_text = "Autoclicker - Clicking"
+        self.title_text = "Eggs Autoclicker - Clicking"
         self.start_button.config(state=tk.DISABLED)
         self.stop_button.config(state=tk.NORMAL)
         threading.Thread(target=self.click).start()
@@ -70,11 +70,11 @@ class Autoclicker:
 
     def stop_clicking(self, event=None):
         self.clicking = False
-        self.title_text = "Autoclicker - Stopped"
+        self.title_text = "Eggs Autoclicker - Stopped"
         self.start_button.config(state=tk.NORMAL)
         self.stop_button.config(state=tk.DISABLED)
         time.sleep(1)
-        self.title_text = "Autoclicker"
+        self.title_text = "Eggs Autoclicker"
 
     def close(self):
         self.clicking = False
