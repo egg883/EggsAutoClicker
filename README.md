@@ -1,5 +1,5 @@
 
-![image](https://user-images.githubusercontent.com/106391253/231864779-ce76ff35-ce77-45f1-8626-545c96eb3948.png)
+![image](https://user-images.githubusercontent.com/106391253/231895555-c58cdfff-c888-485c-9ff0-659ca03c7478.png)
 
 
 # MAC Install (Manual)
