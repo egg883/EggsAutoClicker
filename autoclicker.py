@@ -10,6 +10,7 @@ class Autoclicker:
         self.clicking = False
         self.title_text = "Autoclicker"
         self.made_by_text = "Made by egg883"
+        self.keybind = "f4"
 
         self.bg_color = "#282C34"
         self.fg_color = "#ABB2BF"
@@ -36,6 +37,9 @@ class Autoclicker:
         self.start_button.pack(pady=5)
         self.stop_button = tk.Button(text="Stop", bg=self.button_bg_color, fg=self.button_fg_color, command=self.stop_clicking, state=tk.DISABLED)
         self.stop_button.pack(pady=5)
+        
+        self.keybind = tk.Label(text="Press F4 to begin", bg=self.bg_color, fg=self.fg_color)
+        self.keybind.pack(pady=5)
 
         self.made_by_label = tk.Label(text=self.made_by_text, font=("Helvetica", 8), fg="#bfbfbf", bg="#1f1f1f")
         self.made_by_label.pack(side=tk.BOTTOM, padx=5, pady=5, anchor=tk.SE)
@@ -67,10 +71,10 @@ class Autoclicker:
     def stop_clicking(self, event=None):
         self.clicking = False
         self.title_text = "Autoclicker - Stopped"
-        time.sleep(1)
-        self.title_text = "Autoclicker"
         self.start_button.config(state=tk.NORMAL)
         self.stop_button.config(state=tk.DISABLED)
+        time.sleep(1)
+        self.title_text = "Autoclicker"
 
     def close(self):
         self.clicking = False
