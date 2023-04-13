@@ -10,7 +10,7 @@ class Autoclicker:
         self.clicking = False
         self.title_text = "Eggs Autoclicker"
         self.made_by_text = "Made by egg883"
-        self.keybind = "-"
+        self.keybind = "F4"
 
         self.bg_color = "#282C34"
         self.fg_color = "#ABB2BF"
@@ -44,7 +44,7 @@ class Autoclicker:
         self.made_by_label = tk.Label(text=self.made_by_text, font=("Helvetica", 8), fg="#bfbfbf", bg="#1f1f1f")
         self.made_by_label.pack(side=tk.BOTTOM, padx=5, pady=5, anchor=tk.SE)
 
-        keyboard.add_hotkey('-', self.toggle_clicking)
+        keyboard.add_hotkey('f4', self.toggle_clicking)
         self.root.protocol("WM_DELETE_WINDOW", self.close)
         self.root.mainloop()
 
@@ -78,7 +78,7 @@ class Autoclicker:
 
     def close(self):
         self.clicking = False
-        keyboard.remove_hotkey('-')
+        keyboard.remove_hotkey('f4')
         self.root.destroy()
 
     def toggle_clicking(self):
