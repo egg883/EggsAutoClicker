@@ -20,7 +20,7 @@ class Autoclicker:
         self.root = tk.Tk()
         self.root.title(self.title_text)
         self.root.geometry("330x200")
-        self.root.iconbitmap("C:/Users/cassi/Desktop/autoclicker/assets/egg.ico")
+        self.root.iconbitmap("egg.ico")
         self.root.config(bg=self.bg_color)
 
         self.title_animation_index = 0
