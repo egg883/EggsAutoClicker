@@ -13,7 +13,5 @@
 ## [Discord Server](https://discord.gg/AUevumCwXj) | [Website](https://egg883.xyz)
 <a href="https://discord.gg/AUevumCwXj"><img src="https://discord.com/api/guilds/1048219013173493850/widget.png?style=banner2"></a>
  
-<h2><strong> Discord Tag -->  </strong></h2>
-<p align="left">
-    <img width="40%" src="https://lanyard-profile-readme.vercel.app/api/184841558661529600" />
-</p>
+<h2><strong> Discord -->  </strong></h2>
+<img width="40%" src=https://lanyard.cnrad.dev/api/281476115397345280 />
