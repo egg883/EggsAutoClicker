@@ -10,8 +10,7 @@
 7. Press F4 and it'll start clicking.
 
 
-## [Discord Server](https://discord.gg/AUevumCwXj) | [Website](https://egg883.xyz)
-<a href="https://discord.gg/AUevumCwXj"><img src="https://discord.com/api/guilds/1048219013173493850/widget.png?style=banner2"></a>
+## [Discord Server](https://discord.gg/EdfyJ47xYe) | [Website](https://eggbot.site)
  
 <h2><strong> Discord -->  </strong></h2>
 <img width="40%" src=https://lanyard.cnrad.dev/api/281476115397345280 />
